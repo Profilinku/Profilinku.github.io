@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profil.css">
+    <!-- Tambahkan ini di dalam tag <head> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <title>Profil Saya</title>
+</head>
+<body>
+  <nav>
+    <ul>
+        <li><a href="index.html">Tentang</a></li>
+        <li><a href="galery.html">Galery</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+    </ul>
+</nav>
+<section id="portfolio">
+    <div class="container">
+        <h2>Portofolio</h2>
+        <div class="project" onmouseover="animateProject(this)" onmouseout="resetProject(this)">
+            <img src="/Screenshot_2023-12-12-15-39-55-552_io.spck.jpg" alt="Proyek 1">
+            <h3>project membuat web kelas X TKJ 2 PRIDE</h3>
+            <p>Project ini belum selesai 100%</p>
+        </div>
+        <div class="project" onmouseover="animateProject(this)" onmouseout="resetProject(this)">
+        </div>
+    </div>
+</section>
+</body>
