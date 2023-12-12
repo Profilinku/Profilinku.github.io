@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Ganti dengan jenis font yang Anda inginkan */
+}
+
+nav {
+    z-index: 1000;
+    background-color: #333;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 2em 0;
+    margin-top: 80px; /* Atur margin-top untuk memberikan ruang di bawah navigasi */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 2em 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ... (Gaya CSS lainnya tetap sama) */
+
+
+/* ... (Gaya CSS lainnya tetap sama) */
+
+
+/* ... (Gaya CSS lainnya tetap sama) */
+
+
+/* Tambahkan gaya untuk gambar profil */
+header img {
+  margin-bottom: 20px; /* Tambahkan margin pada bagian bawah header */
+    /* atau */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Tambahkan efek hover pada keterampilan */
+.skill {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+#portfolio {
+    padding: 2em 0;
+}
+
+.project {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 1em;
+}
+
+/* Efek animasi saat hover pada proyek */
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#contact {
+    background-color: #f9f9f9;
+    padding: 2em 0;
+}
+
+form {
+    display: grid;
+    grid-gap: 1em;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.7em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+.social-icons {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social-icons a {
+    margin: 0 em;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    z-index: 1000;
+}
+
+.floating-button button {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.floating-button button:hover {
+    background-color: #555;
+}
+/* Ganti gaya untuk kelas "skill" menjadi "gallery" */
+.gallery {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery:hover {
+    transform: scale(1.1);
+}
+/* Ganti id "skills" menjadi "gallery" */
+#gallery {
+    padding: 2em 0;
+}
+
+/* Ganti kelas "skill" menjadi "gallery" */
+.gallery {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* ... (Gaya CSS lainnya tetap sama) */
+/* CSS untuk galeri */
+#gallery {
+    padding: 2em 0;
+}
+
+.gallery-item {
+    margin-bottom: 2em;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
